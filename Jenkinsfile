@@ -4,7 +4,7 @@ def env = {}
 pipeline {
    agent any
   triggers{
-    pollSCM('H/2 * * * *')
+    pollSCM('H/2 * * * *')        
   }
   stages {
   
